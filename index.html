@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            var person = document.getElementById("first").value;
+            window.location="http://www.facebook.com/" + person;
+        }
+    </script>
+    <h1>Search for a name WITHOUT SPACE</h1>
+    <div>
+        <input id="first" maxlength="100" size="20" type="text" />
+        <input onkeydown="myFunction()" onclick="myFunction()" type="submit" value="Submit">
+        
+    </div>
+</body>
+</html>
