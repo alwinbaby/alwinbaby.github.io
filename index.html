@@ -3,12 +3,19 @@
 <body>
     <p id="demo"></p>
     <script>
-        function myFunction() {
+        function myFunction()
+        {
             var person = document.getElementById("first").value;
-            window.location = "https://alwinbaby.github.io/"+ person +".jpg";
+
+            if (person > 1 && person < 7)
+                window.location = "https://alwinbaby.github.io/" + person + ".jpg";
+            else if (person < 1 || person > 7)
+                document.getElementById("error").innerHTML = "Please enter a number between 1 and 7";
         }
+        
     </script>
     <h1>Enter a number between 1 and 7</h1>
+    <p id="error"></p>
     <div>
         <input id="first" maxlength="10" size="5" type="text" />
         <input onkeydown="myFunction()" onclick="myFunction()" type="submit" value="Submit">
