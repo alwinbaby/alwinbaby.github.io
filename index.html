@@ -7,9 +7,9 @@
         {
             var person = document.getElementById("first").value;
 
-            if (person > 1 && person < 7)
+            if (person >= 0 && person <= 8)
                 window.location = "https://alwinbaby.github.io/" + person + ".jpg";
-            else if (person < 1 || person > 7)
+            else if (person <1 || person > 7)
                 document.getElementById("error").innerHTML = "Please enter a number between 1 and 7";
         }
         
