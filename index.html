@@ -3,71 +3,16 @@
 <body>
     <p id="demo"></p>
     <script>
-
-        function myFunction()
-        {
+        function myFunction() {
             var person = document.getElementById("first").value;
-           
-                window.location = "https://www.facebook.com/search/top/?q=" + person;
-        
+            window.location="http://www.facebook.com/" + person;
         }
-        
     </script>
-    <center><h1><font color = "000000">Enter a name</font></h1></center>
-    <p id="error"></p>
+    <h1>Search for a name on facebook</h1>
     <div>
-        <center><input id="first" maxlength="110" size="50" type="text" /></center>
-        <center><input onkeydown="myFunction()" onclick="myFunction()" type="submit" value="Submit"></center>
+        <input id="first" maxlength="100" size="20" type="text" />
+        <input onkeydown="myFunction()" onclick="myFunction()" type="submit" value="Submit">
         
     </div>
 </body>
-</html>
-<html>
-<head>
-<style>
-body  {
-    background-image: url("http://alwinbaby.github.io/1.jpg");
-    background-color: #cccccc;
-}
-#snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-.snowflake {
-    padding-left: 15px;
-    font-family: Cambria, Georgia, serif;
-    font-size: 14px;
-    line-height: 24px;
-    position: fixed;
-    color: #FFFFFF;
-    user-select: none;
-    z-index: 1000;
-}
-.snowflake:hover {
-    cursor: default;
-}
-
-p, ol {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
-    font-size: 24px;
-    color: #CCC;
-}
-li {
-    margin-bottom: 24px;
-    padding-left: 10px;
-}
-</style>
-</head>
-<body>
- 
-<div id="snowflakeContainer">
-    <p class="snowflake">*</p>
-</div>
-    
-</div>
-<script src="//www.kirupa.com/js/fallingsnow_v6.js"></script>
-<script src="//www.kirupa.com/js/prefixfree.min.js"></script>
-</body>
- 
 </html>
