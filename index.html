@@ -1,18 +1,62 @@
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="mystyle.css" type="text/css" />
+<title>Welcome to J. D.'s webpage</title>
+</head>
 <body>
-    <p id="demo"></p>
-    <script>
-        function myFunction() {
-            var person = document.getElementById("first").value;
-            window.location="http://www.facebook.com/" + person;
-        }
-    </script>
-    <h1>Search for a name on facebook</h1>
-    <div>
-        <input id="first" maxlength="100" size="20" type="text" />
-        <input onkeydown="myFunction()" onclick="myFunction()" type="submit" value="Submit">
-        
-    </div>
+
+<div class="header">
+<h1><img src="html.jpg" alt="html image" style = "display:inline" width = "150" height = "100" />
+Welcome to Alwin's CS215 Homepage</h1>
+</div>
+<hr />
+<div class="content">
+<p>
+Hello, my name is Alwin! I am taking this class because I would like to learn
+Web programming. Topics 1 to 3 focus on client-side web programming. In other words, 
+HTML, cascading style sheets (CSS) and JavaScript statements are processed by an 
+Internet browser (the client) running on your machine.   
+</p>
+<p>
+Topics 4 to 6 focus on server-side Web programming. Specifically, 
+PHP code and SQL statements are executed by servers (web servers and database servers).
+</p>
+
+<p>
+You can contact me at jus@gmail.com or phone me at 306-123-4567.
+</p>
+
+<ul style="list-style-type:circle">
+  <li>Classes I am taking this semester:
+  <ol>
+    <li>CS 215</li>
+    <li>CS 340</li>
+    <li>GEOL 102</li>
+  </ol>
+  <br />
+  </li>
+  <li>CS Classes I have already taken:
+  <ol>
+    <li>CS 110</li>
+    <li>CS 115</li>
+  </ol>
+  </li>
+</ul>
+
+<p>
+Here's a link to my <a href="signup.html"> sign up page</a>.<br />
+</p>
+</div>
+<hr />
+
+<div class = "footer">
+<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww2.cs.uregina.ca%2F~baby200a%2F">
+  Validate HTML5</a></p>
+</div>
+
 </body>
 </html>
