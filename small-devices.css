@@ -1,0 +1,51 @@
+
+img.image {
+   
+    float: left;
+    width: 24%;   
+    border-style: hidden
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postBox{
+    border-style: inset;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border-style: hidden;
+    padding: 10px;
+	 
+}
+
+.user{
+	text-align:center;
+}
+
+table.center{
+	text-align:center;
+}
+.center_text{
+	text-align:center;
+	
+}
+.login {
+   
+    width: 50%;
+    border-style: inset;
+    padding: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.align{
+	margin: 0px 65.2px 0px 423.8px;
+	width: 1025px; 
+	height: 108px;
+}
