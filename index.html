@@ -23,8 +23,8 @@ function onConnect() {
   }
   function MQTTconnect(){
     console.log("Connecting to "+ port);
-    var port=document.getElementById("port");
-    var host=document.getElementById("host");
+    var port=document.getElementById("port").value;
+    var host=document.getElementById("host").String;
     mqtt=new Paho.MQTT.Client(host, port,"MQTTjs-unIoRrIVeT");
     var options={
       timeout:3,
@@ -42,7 +42,9 @@ function onConnect() {
   <script>
   </script>
   <form action= MQTTconnect();>
+  <label for="host">Host</label><br>
   <input placeholer="Host" id="host"></input>
+  <label for="Port">Port</label><br>
   <input placeholer="Port" id="port"></input>
   <h1 id="demo"></h1>
   <input type="submit" value="Submit">
